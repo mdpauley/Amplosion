@@ -1,0 +1,78 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 0;
+    color: #000;
+}
+
+#site-title {
+    font: -apple-system-title1;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 0;
+}
+
+#stats-description {
+    font: -apple-system-body;
+    margin-top: 15px;
+}
+
+#add-description {
+    font: -apple-system-footnote;
+    color: #575757;
+}
+
+button {
+    all: unset;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 14px 20px 14px 65px;
+    font: -apple-system-body;
+    cursor: pointer;
+    color: #007aff;
+    width: calc(100% - 85px);
+    background-repeat: no-repeat;
+    background-position: calc(0% + 25px) calc(50%);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#add-to-allowlist {
+    background-image: url("plus.svg");
+}
+
+#remove-from-allowlist {
+    background-image: url("minus.svg");
+}
+
+button:hover {
+    background-color: #f9f9f9;
+}
+
+button:focus {
+    outline: #007aff 5px auto;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #fff;
+        background-color: #1c1c1e;
+    }
+    
+    #add-description {
+        color: #99989d;
+    }
+    
+    button {
+        background-color: #2c2c2e;
+        color: #0b84fe;
+    }
+    
+    button:hover {
+        background-color: #464647;
+    }
+}

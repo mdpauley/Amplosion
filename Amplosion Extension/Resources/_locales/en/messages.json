@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Amplosion",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Turns AMP links into normal links. ⚡️",
+        "description": "Description of what the extension does."
+    }
+}

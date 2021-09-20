@@ -1,0 +1,53 @@
+{
+  "images" : [
+    {
+      "filename" : "selection-box.png",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 16,
+          "left" : 16,
+          "right" : 16,
+          "top" : 16
+        },
+        "center" : {
+          "height" : 2,
+          "mode" : "tile",
+          "width" : 2
+        },
+        "mode" : "9-part"
+      }
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "selection-box cossspy.png",
+      "idiom" : "universal",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 16,
+          "left" : 16,
+          "right" : 16,
+          "top" : 16
+        },
+        "center" : {
+          "height" : 2,
+          "mode" : "tile",
+          "width" : 2
+        },
+        "mode" : "9-part"
+      }
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "original"
+  }
+}

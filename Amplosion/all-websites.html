@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            :root {
+                color-scheme: light dark;
+            }
+            
+            body {
+                max-width: 500px;
+                margin: 0 auto;
+                padding: 16px;
+            }
+
+            h3 {
+                font: -apple-system-title1;
+                font-family: ui-rounded, system-ui;
+                font-weight: 600;
+                margin-bottom: 9px;
+            }
+
+            p {
+                font: -apple-system-body;
+                font-family: ui-rounded, system-ui;
+            }
+            
+            a {
+                color: #007aff;
+                text-decoration: none;
+            }
+            
+            @media (prefers-color-scheme: dark) {
+                body {
+                    color: #fff;
+                    background-color: #000;
+                }
+                
+                a {
+                    color: #0b84fe;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>Amplosion requests “All Websites” permission, you might be curious why that is.</p>
+        
+        <h3>Why All Websites</h3>
+
+        <p>AMP sites work by embedding a tag in their HTML (what the page is built with) to the “canonical” (AKA normal) link so web crawlers (like Google) can know the actual URL to the article. Amplosion uses this to locate the “normal” link and redirect you to it.</p>
+        <p>To find this tagged link, Amplosion needs to be able to inspect the page’s HTML. And since AMP links can occur on literally any website (in other words, they’re not all hosted by Google, each site typically hosts its own AMP content), Amplosion can’t just request permission for a single website and be done.</p>
+        <p>For instance, say you find a link to a Reddit AMP post (amp.reddit.com/), and then your friend sends you a NY Times AMP article (nytimes.com/article/amp.html). These are separate websites, and with the “All Websites” permission, Amplosion will be able to redirect to the normal link with ease.</p>
+        <p>(You can also enable Amplosion solely for the Google search results page, and it’ll work there, but this won’t work with links you happen upon outside of Google, “All Websites” is needed for that.)</p>
+
+        <h3>Not an Issue</h3>
+        <p>You should trust an app before granting it “All Websites” permission, this is because if they can see the contents of the page, there’s a possibility they do creepy stuff with that information. You don’t have to worry about that with Amplosion, and thankfully you don’t even have to take my word for it.</p>
+        <p>In addition to Amplosion's privacy policy stating it does everything on your device, and your information is never logged/shared, <a href="https://github.com/christianselig/Amplosion">Amplosion is also completely open-source</a>. To the uninitiated, this means you can freely and easily go and inspect the source code that makes up Amplosion (even this very page you’re reading!). There’s no secrets. With most apps, it’s a black box and you have to hope that the developer is truthful. With Amplosion, you can pull back the covers and see everything it does. (Hint: it redirects AMP links and has a puppy.)</p>
+    </body>
+</html>
