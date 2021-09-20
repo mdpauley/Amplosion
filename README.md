@@ -2,6 +2,8 @@
 
 Amplosion is an iOS 15 and greater app that automagically redirects AMP links to their normal counterpart. AMP links can be super annoying, so this helps make your web browsing experience a bunch more delightful.
 
+[**Download Here**](https://itunes.apple.com/app/id1585734696)
+
 ### Why Open Source 🔒
 
 Safari extensions require your permission to run, so in the interest of transparency I wanted to make the app completely open source. Amplosion's Privacy Policy already states that it's completely private (everything is handled locally, on-device) but why trust my words when you can go through the code itself? My intention is for this to serve as an extra layer of validation that Amplosion is a privacy-first app, and seeks simply to make your web browsing experience more pleasant. 
